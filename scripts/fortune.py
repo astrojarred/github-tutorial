@@ -24,7 +24,7 @@ def tell_fortune():
     animal = input("What is your favorite animal? ").lower()
 
     if color in colors and animal in animals:
-        print(f"Hello {animal}. {random.choice(fortunes)}")
+        print(f"Hello {name}. {random.choice(fortunes)}")
     else:
         print("Sorry, I couldn't tell your fortune. Please try again with a valid color and animal.")
         print("Valid colors are: ", colors)
