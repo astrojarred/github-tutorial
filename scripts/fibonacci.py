@@ -3,6 +3,7 @@ def fibonacci(n):
     while len(fib_sequence) < n:
         next_number = fib_sequence[len(fib_sequence)-1] - fib_sequence[len(fib_sequence)-2]
         fib_sequence.append(next_number)
+        #whatever
     return fib_sequence
 
 if __name__ == "__main__":
